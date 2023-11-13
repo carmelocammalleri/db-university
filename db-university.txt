@@ -50,6 +50,13 @@ WHERE `phone` IS NULL;
 
 //1.
 
+SELECT COUNT(*) AS 'year', YEAR(`enrolment_date`)
+FROM `students`
+GROUP BY YEAR(`enrolment_date`);
+
+//2.
+
+
 
 
 
