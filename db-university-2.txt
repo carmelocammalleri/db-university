@@ -62,6 +62,7 @@ INNER JOIN `departments`
 ON `departments`.`id` = `degrees`.`department_id`
 WHERE `departments`.`name` = 'dipartimento di matematica';
 
+
 /////////BONUS/////////
 
 //7.
